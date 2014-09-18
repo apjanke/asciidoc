@@ -12,26 +12,23 @@ Prerequisites
 See the link:README.html[README] page.
 
 
-Installing from the Mercurial repository
+Installing from the Github repository
 ----------------------------------------
-The AsciiDoc http://www.selenic.com/mercurial/[Mercurial] repository
-is hosted by http://code.google.com/[Google Code].
+The AsciiDoc https://github.com/asciidoc/asciidoc[git] repository
+is hosted by https://github.com/asciidoc/asciidoc[GitHub].
 To browse the repository go to
-http://code.google.com/p/asciidoc/source/browse/.
+https://github.com/asciidoc/asciidoc.
 You can install AsciiDoc from the repository if you don't have an up to
 date packaged version or want to get the latest version from the trunk:
-
-- Make sure you have http://www.selenic.com/mercurial/[Mercurial]
-  installed, you can check with:
-
-  $ hg --version
 
 - Go to the directory you want to install AsciiDoc into and download
   the repository.  This example gets the {revnumber} tagged release:
 
 [subs="attributes"]
   $ cd ~/bin
-  $ hg clone -r {revnumber} https://asciidoc.googlecode.com/hg/ asciidoc-{revnumber}
+  $ git clone https://github.com/asciidoc/asciidoc.git
+  $ cd asciidoc
+  $ git checkout -b {revnumber} {revnumber}
 
 You now have two choices: you can run asciidoc locally from your
 repository or you can use 'autoconf(1)' and 'make(1)' to perform a
