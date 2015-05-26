@@ -221,6 +221,10 @@ The following platform specific AsciiDoc packages are available:
   Ben Walton has created a CSW package for AsciiDoc, you can find it
   here: http://opencsw.org/packages/asciidoc.
 
+*OS X (Homebrew Formula)*::
+  Mac OS X users running http://brew.sh/[Homebrew] can use it to install
+  AsciiDoc. To install AsciiDoc, run `brew install asciidoc`.
+
 See also link:userguide.html#X38[Packager Notes] in the 'AsciiDoc User
 Guide'.
 
